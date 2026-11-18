@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <RootNamespace>Grualink.Examples.WebhookServer</RootNamespace>
+    <AssemblyName>WebhookServer</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Grualink\Grualink.csproj" />
+  </ItemGroup>
+
+</Project>

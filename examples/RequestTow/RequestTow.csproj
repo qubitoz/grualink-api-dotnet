@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Grualink.Examples.RequestTow</RootNamespace>
+    <AssemblyName>RequestTow</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Grualink\Grualink.csproj" />
+  </ItemGroup>
+
+</Project>
