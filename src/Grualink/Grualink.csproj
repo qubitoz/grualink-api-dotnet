@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Grualink</RootNamespace>
+    <AssemblyName>Grualink</AssemblyName>
+    <Description>Example client and webhook verification for the GRUALINK public API. No runtime dependencies.</Description>
+  </PropertyGroup>
+
+</Project>
