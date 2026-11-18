@@ -1,0 +1,46 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grualink", "src\Grualink\Grualink.csproj", "{9214AAC5-67B7-5DE7-9C48-B0FA9AF62008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestTow", "examples\RequestTow\RequestTow.csproj", "{B77DCF68-0431-5260-8BEC-889DB5A99164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebhookServer", "examples\WebhookServer\WebhookServer.csproj", "{D257CC39-7551-5DB4-A0D2-C68BD375394B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grualink.Tests", "tests\Grualink.Tests\Grualink.Tests.csproj", "{F4C88C45-61C8-5541-ABA8-43B04C45907E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeApi", "tests\FakeApi\FakeApi.csproj", "{79DB5348-383A-519D-9385-E209269DB040}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9214AAC5-67B7-5DE7-9C48-B0FA9AF62008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9214AAC5-67B7-5DE7-9C48-B0FA9AF62008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9214AAC5-67B7-5DE7-9C48-B0FA9AF62008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9214AAC5-67B7-5DE7-9C48-B0FA9AF62008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B77DCF68-0431-5260-8BEC-889DB5A99164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77DCF68-0431-5260-8BEC-889DB5A99164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77DCF68-0431-5260-8BEC-889DB5A99164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77DCF68-0431-5260-8BEC-889DB5A99164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D257CC39-7551-5DB4-A0D2-C68BD375394B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D257CC39-7551-5DB4-A0D2-C68BD375394B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D257CC39-7551-5DB4-A0D2-C68BD375394B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D257CC39-7551-5DB4-A0D2-C68BD375394B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C88C45-61C8-5541-ABA8-43B04C45907E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C88C45-61C8-5541-ABA8-43B04C45907E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C88C45-61C8-5541-ABA8-43B04C45907E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C88C45-61C8-5541-ABA8-43B04C45907E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79DB5348-383A-519D-9385-E209269DB040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79DB5348-383A-519D-9385-E209269DB040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79DB5348-383A-519D-9385-E209269DB040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79DB5348-383A-519D-9385-E209269DB040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
